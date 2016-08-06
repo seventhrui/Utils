@@ -154,6 +154,9 @@ dependencies {
 ##Components
 ####AppUtil
 ######getAppName
+获取应用名称
 ######getVersionName
+获取版本名称
 ######getVersionCode
+获取版本号
 ```xml
