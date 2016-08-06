@@ -142,21 +142,23 @@ If you prefer it, you can use the gradle dependency, you have to add these lines
 
 
 >Step 1. Add the JitPack repository to your build file
+>
 ```xml
 repositories {
     jcenter()
     maven { url "https://jitpack.io" }
 
->}
+}
 ```
 
 >Step 2. Add the dependency
+>
 ```xml
 dependencies {
     compile 'com.github.seventhrui:Utils:1.1.1'
     //or
     //compile 'com.github.seventhrui:Utils:+'
->}
+}
 ```
 
 ##Components
