@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.provider.MediaStore;
+import android.telephony.TelephonyManager;
 
 import java.io.File;
 
@@ -41,6 +42,22 @@ public final class PhoneUtil {
         activity.startActivity(it);
     }
 
+    /**
+     * 获取IMEI号(手机串号)
+     * GSM手机的 IMEI 和 CDMA手机的 MEID
+     * @param context
+     * @return
+     */
+    public static String getImei(Context context) {
+        TelephonyManager tm = (TelephonyManager) context
+                .getSystemService(Context.TELEPHONY_SERVICE);
+        String _imei = tm.getDeviceId();
+        if (_imei != null && !_imei.equals("")) {
+            return _imei;
+        }
+        else
+            return "";
+    }
 
     /**
      * 判断是否为连击
