@@ -130,7 +130,6 @@ android utils
         * [showLong](#showLong2)
         * [show](#show)
         * [show](#show2)
-        * [show](#show3)
 
 
 
