@@ -5,8 +5,8 @@ android utils
 * [Components](#components)
     * [AppUtil](#apputil)
         * [getAppName](#getappname)
-        * [getVersionName](#getVersionName)
-        * [getVersionCode](#getVersionCode)
+        * [getVersionName](#getversionname)
+        * [getVersionCode](#getversioncode)
     * [BitmapUtil](#BitmapUtil)
         * [drawableToBitmap](#drawableToBitmap)
     * [ColorsUtil](#ColorsUtil)
@@ -154,4 +154,6 @@ dependencies {
 ##Components
 ####AppUtil
 ######getAppName
+######getVersionName
+######getVersionCode
 ```xml
