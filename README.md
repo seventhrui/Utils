@@ -153,5 +153,5 @@ dependencies {
 
 ##Components
 ####AppUtil
-![getAppName]
+######getAppName
 ```xml
