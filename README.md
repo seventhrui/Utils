@@ -150,3 +150,7 @@ dependencies {
     //compile 'com.github.seventhrui:Utils:+'
 }
 ```
+
+##Components
+####AppUtil
+![getAppName]
