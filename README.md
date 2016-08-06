@@ -146,7 +146,6 @@ If you prefer it, you can use the gradle dependency, you have to add these lines
 repositories {
     jcenter()
     maven { url "https://jitpack.io" }
-
 >}
 ```
 
