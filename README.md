@@ -62,6 +62,7 @@ android utils
         * [openSetting](#openSetting)
     * [PhoneUtil](#PhoneUtil)
         * [sendMessage](#sendMessage)
+        * [getImei](#getImei)
         * [isFastDoubleClick](#isFastDoubleClick)
         * [getMobileModel](#getMobileModel)
         * [getMobileBrand](#getMobileBrand)
