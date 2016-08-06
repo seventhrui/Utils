@@ -142,7 +142,7 @@ If you prefer it, you can use the gradle dependency, you have to add these lines
 
 
 >Step 1. Add the JitPack repository to your build file
->
+>```
 ```xml
 repositories {
     jcenter()
