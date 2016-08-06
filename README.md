@@ -1,8 +1,8 @@
 # Utils
 android utils
 
-* [How to use](#howtouse)
-* [Components](#components)
+* [How to use](#How to use)
+* [Components](#Components)
     * [AppUtil](#AppUtil)
         * [getAppName](#getAppName)
         * [getVersionName](#getVersionName)
@@ -133,7 +133,7 @@ android utils
 
 
 
-##How to use(##howtouse)
+##How to use
 
 If you want use this library, you only have to download Utils project, import it into your workspace and add the project as a library in your android project settings.
 
