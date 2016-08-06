@@ -145,7 +145,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.seventhrui:Utils:1.1.0'
+    compile 'com.github.seventhrui:Utils:1.1.1'
     //or
     //compile 'com.github.seventhrui:Utils:+'
 }
