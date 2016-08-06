@@ -141,7 +141,7 @@ If you want use this library, you only have to download Utils project, import it
 If you prefer it, you can use the gradle dependency, you have to add these lines in your build.gradle file:
 
 
->Step 1. Add the JitPack repository to your build file
+>Step 1. Add the JitPack repository to your build file>
 ```xml
 repositories {
     jcenter()
@@ -150,7 +150,7 @@ repositories {
 }
 ```
 
->Step 2. Add the dependency
+>Step 2. Add the dependency>
 ```xml
 dependencies {
     compile 'com.github.seventhrui:Utils:1.1.1'
