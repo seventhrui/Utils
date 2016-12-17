@@ -1,4 +1,4 @@
-package com.tribe7.utils;
+package com.seventh.utils;
 
 import android.content.Context;
 import android.widget.Toast;

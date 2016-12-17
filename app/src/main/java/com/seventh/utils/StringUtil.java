@@ -1,4 +1,4 @@
-package com.tribe7.utils;
+package com.seventh.utils;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;

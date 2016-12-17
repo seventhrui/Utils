@@ -1,4 +1,4 @@
-package com.tribe7.utils;
+package com.seventh.utils;
 
 /**
  * 颜色工具类 包括常用的色值

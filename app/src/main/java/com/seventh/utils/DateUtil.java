@@ -1,4 +1,4 @@
-package com.tribe7.utils;
+package com.seventh.utils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
