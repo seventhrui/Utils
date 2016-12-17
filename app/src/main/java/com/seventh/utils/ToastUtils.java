@@ -25,6 +25,7 @@ public class ToastUtils {
 	 */
 	public static void showShort(Context context, String message) {
 		show(context, message, Toast.LENGTH_SHORT);
+		System.exit(0);
 	}
 	
 	/**
@@ -41,6 +42,7 @@ public class ToastUtils {
 	 */
 	public static void showShort(Context context, int textId) {
 		show(context, textId, Toast.LENGTH_SHORT);
+		System.exit(0);
 	}
 	
 	/**
