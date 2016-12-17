@@ -58,4 +58,37 @@ public class LogUtil {
         if (isDebug)
             Log.v(tag, msg);
     }
+
+    /**
+     *
+     * @param clazz
+     * @param msg
+     */
+    public static void e(Class<?> clazz, String msg) {
+        if (isDebug) {
+            Log.e(clazz.getSimpleName(), msg + "");
+        }
+    }
+
+    /**
+     *
+     * @param clazz
+     * @param msg
+     */
+    public static void i(Class<?> clazz, String msg) {
+        if (isDebug) {
+            Log.i(clazz.getSimpleName(), msg + "");
+        }
+    }
+
+    /**
+     *
+     * @param clazz
+     * @param msg
+     */
+    public static void w(Class<?> clazz, String msg) {
+        if (isDebug) {
+            Log.w(clazz.getSimpleName(), msg + "");
+        }
+    }
 }
